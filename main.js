@@ -11,7 +11,7 @@ const firebaseConfig = {
 };
 
 if (!firebase.apps.length) {
-  firebase.initializeApp(fireaseConfig);
+  firebase.initializeApp(firebaseConfig);
 }
 
 const firestore = firebase.firestore();
